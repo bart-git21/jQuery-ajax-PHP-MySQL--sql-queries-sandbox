@@ -223,8 +223,16 @@ Update a query with a specific id.
     "success": "query successfully updated"
 }
 ```
-### Error Handling
-- 400 Bad Request: invalid request data or format
-- 401 Unauthorized: authentication failed or missing
-- 404 Not Found: query not found or does not exist
-- 500 Internal Server Error: server-side error or exception
+## Common Http status codes
+|Http code|body                 |Description                                                               |
+|---------|---------------------|--------------------------------------------------------------------------|
+|200      |OK                   |Successful request                                                        |
+|201      |Created              |Resource created                                                          |
+|204      |OK                   |Delete refresh token                                                      |
+|400      |Bad Request          |Missing a reqired parameter or the server could not understand the request|
+|401      |Unauthorized         |Required user authentication                                              |
+|403      |Forbidden            |The server understood the request but refuzes to authorized it            |
+|404      |Not Found            |The requested resource could not be found                                 |
+|405      |Method Not Allowed   |The method used in the request is not supported for the target resource, such as attempting to use a POST method when only GET requests are allowed.  |
+|422      |empty request        |Parameter is missing.                                                     |
+|500      |Internal Server Error|An unexpected condition was encoured. The server was unable to fulfil the request|
