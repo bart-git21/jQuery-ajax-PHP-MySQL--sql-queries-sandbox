@@ -20,8 +20,10 @@ Deployment: GitHub.
 - Intro page show all logged user queries.
 ![screen](https://github.com/bart-git21/JS-PHP-MySQL--sql-queries-testing/blob/main/intro.jpg)
 - Queries page show queries for logged user. Selection of another user will display the queries for that user.
+- The button 'Выполнить' creates a table containing the received data. 
 ![screen](https://github.com/bart-git21/JS-PHP-MySQL--sql-queries-testing/blob/main/query.jpg)
 - User can modify the query or create the new one.
+- If the user changes the query, the list of queries will also change.
 ![screen](https://github.com/bart-git21/JS-PHP-MySQL--sql-queries-sandbox/blob/main/edit.jpg)
 
 ### Base api URL
