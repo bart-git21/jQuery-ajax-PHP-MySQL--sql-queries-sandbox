@@ -30,9 +30,6 @@
                     <select class="custom-select" id="queriesSelect">
                         <option selected disabled value="-1">Выбор запроса</option>
                     </select>
-                    <div class="input-group-append input-group-sm">
-                        <button class="btn btn-outline-secondary btn-sm" type="button">u</button>
-                    </div>
                 </div>
                 <div class="border mb-2" id="queryText">
                     <div>Текст запроса (только чтение)</div>
